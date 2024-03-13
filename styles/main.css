@@ -1,0 +1,14 @@
+.experience-card {
+    /* TODO: Make the cards fit the theme */
+    /* overflow: hidden; */
+    /* border-width: ; */
+}
+
+.project-card {
+    /* overflow: hidden; */
+}
+
+.experience-header {
+    border-bottom: 1px solid #ccc;
+    justify-content: center;
+}
