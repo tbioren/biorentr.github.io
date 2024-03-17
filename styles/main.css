@@ -1,3 +1,11 @@
+body {
+    --primary-color: #474559;
+    font-family: "Oswald", sans-serif;
+    font-size: large;
+    line-height: 1.5em;
+    color: var(--primary-color)
+}
+
 .experience-card {
     /* TODO: Make the cards fit the theme */
     /* overflow: hidden; */
@@ -11,4 +19,58 @@
 .experience-header {
     border-bottom: 1px solid #ccc;
     justify-content: center;
+}
+
+.experience-bubble {
+    background-color: var(--primary-color);
+    border-radius: 100%;
+    width: 80px;
+    height: 80px;
+    display: block;
+    margin-left: -42.5px;
+}
+
+.experience-bubble span {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    line-height: 75px;
+    text-align: center;
+}
+
+.experience-container {
+    border-left: 5px #474559 solid;
+    margin-left: 20px;
+    padding-bottom: 50px;
+}
+
+.experience-container:last-of-type {
+    border: none;
+    margin-left: 25px;
+    padding-bottom: 0;
+}
+
+.experience-tag-container>span {
+    margin: 10px;
+    padding: 5px;
+    background-color: lightblue;
+    border-radius: 25px;
+}
+
+.btn {
+    background-color: var(--primary-color);
+    color: white;
+    font-weight: bold;
+}
+
+.title {
+    font-weight: bold;
+}
+
+section {
+    margin-top: 5em;
+}
+
+.navbar {
 }
